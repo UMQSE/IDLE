@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8447012322B0FF8E00E5139E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447012222B0FF8E00E5139E /* Game.swift */; };
+		8447012822B11A4400E5139E /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447012722B11A4400E5139E /* ItemManager.swift */; };
+		8447012C22B38F6B00E5139E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447012B22B38F6B00E5139E /* Item.swift */; };
+		8483D2B822BA24470079B225 /* Upgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483D2B722BA24470079B225 /* Upgrade.swift */; };
+		8483D2BA22BA273E0079B225 /* UpgradeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483D2B922BA273E0079B225 /* UpgradeManager.swift */; };
 		84F74A7B22A6743200FAD5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F74A7A22A6743200FAD5E0 /* AppDelegate.swift */; };
 		84F74A7D22A6743200FAD5E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F74A7C22A6743200FAD5E0 /* ViewController.swift */; };
 		84F74A8022A6743200FAD5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F74A7E22A6743200FAD5E0 /* Main.storyboard */; };
 		84F74A8222A6743400FAD5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F74A8122A6743400FAD5E0 /* Assets.xcassets */; };
 		84F74A8522A6743400FAD5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F74A8322A6743400FAD5E0 /* LaunchScreen.storyboard */; };
+		B51D4D57D0C8515E8D4E24BF /* Pods_IDLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD3AEAB5788C8D0743B88D8 /* Pods_IDLE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25571300AABD1EB5E4F0BCFF /* Pods-IDLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLE.debug.xcconfig"; path = "Target Support Files/Pods-IDLE/Pods-IDLE.debug.xcconfig"; sourceTree = "<group>"; };
+		8447012222B0FF8E00E5139E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8447012722B11A4400E5139E /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		8447012B22B38F6B00E5139E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8483D2B722BA24470079B225 /* Upgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade.swift; sourceTree = "<group>"; };
+		8483D2B922BA273E0079B225 /* UpgradeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeManager.swift; sourceTree = "<group>"; };
 		84F74A7722A6743200FAD5E0 /* IDLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F74A7A22A6743200FAD5E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F74A7C22A6743200FAD5E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		84F74A8122A6743400FAD5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F74A8422A6743400FAD5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F74A8622A6743400FAD5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD3AEAB5788C8D0743B88D8 /* Pods_IDLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74C230CE86BDA2B18D4175E /* Pods-IDLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDLE.release.xcconfig"; path = "Target Support Files/Pods-IDLE/Pods-IDLE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51D4D57D0C8515E8D4E24BF /* Pods_IDLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E97768109F993E028CD2B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD3AEAB5788C8D0743B88D8 /* Pods_IDLE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D8B5054D437BEEB682239F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25571300AABD1EB5E4F0BCFF /* Pods-IDLE.debug.xcconfig */,
+				D74C230CE86BDA2B18D4175E /* Pods-IDLE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8447012622B119D900E5139E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				8447012722B11A4400E5139E /* ItemManager.swift */,
+				8447012B22B38F6B00E5139E /* Item.swift */,
+				8483D2B722BA24470079B225 /* Upgrade.swift */,
+				8483D2B922BA273E0079B225 /* UpgradeManager.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
 		84F74A6E22A6743200FAD5E0 = {
 			isa = PBXGroup;
 			children = (
 				84F74A7922A6743200FAD5E0 /* IDLE */,
 				84F74A7822A6743200FAD5E0 /* Products */,
+				4D8B5054D437BEEB682239F5 /* Pods */,
+				0E97768109F993E028CD2B24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +99,14 @@
 		84F74A7922A6743200FAD5E0 /* IDLE */ = {
 			isa = PBXGroup;
 			children = (
+				8447012622B119D900E5139E /* Items */,
 				84F74A7A22A6743200FAD5E0 /* AppDelegate.swift */,
 				84F74A7C22A6743200FAD5E0 /* ViewController.swift */,
 				84F74A7E22A6743200FAD5E0 /* Main.storyboard */,
 				84F74A8122A6743400FAD5E0 /* Assets.xcassets */,
 				84F74A8322A6743400FAD5E0 /* LaunchScreen.storyboard */,
 				84F74A8622A6743400FAD5E0 /* Info.plist */,
+				8447012222B0FF8E00E5139E /* Game.swift */,
 			);
 			path = IDLE;
 			sourceTree = "<group>";
@@ -71,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F74A8922A6743400FAD5E0 /* Build configuration list for PBXNativeTarget "IDLE" */;
 			buildPhases = (
+				5553BBDBEC82163C4E5560F9 /* [CP] Check Pods Manifest.lock */,
 				84F74A7322A6743200FAD5E0 /* Sources */,
 				84F74A7422A6743200FAD5E0 /* Frameworks */,
 				84F74A7522A6743200FAD5E0 /* Resources */,
+				37867DF8734B0D29057F083C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +179,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37867DF8734B0D29057F083C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDLE/Pods-IDLE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDLE/Pods-IDLE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDLE/Pods-IDLE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5553BBDBEC82163C4E5560F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IDLE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84F74A7322A6743200FAD5E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8483D2BA22BA273E0079B225 /* UpgradeManager.swift in Sources */,
+				8447012C22B38F6B00E5139E /* Item.swift in Sources */,
+				8447012822B11A4400E5139E /* ItemManager.swift in Sources */,
+				8483D2B822BA24470079B225 /* Upgrade.swift in Sources */,
+				8447012322B0FF8E00E5139E /* Game.swift in Sources */,
 				84F74A7D22A6743200FAD5E0 /* ViewController.swift in Sources */,
 				84F74A7B22A6743200FAD5E0 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +376,7 @@
 		};
 		84F74A8A22A6743400FAD5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25571300AABD1EB5E4F0BCFF /* Pods-IDLE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +394,7 @@
 		};
 		84F74A8B22A6743400FAD5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74C230CE86BDA2B18D4175E /* Pods-IDLE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
